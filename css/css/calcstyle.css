@@ -1,0 +1,77 @@
+table, td {
+    border: 1px solid black;
+    text-align: center;
+    height: 30px;
+}
+
+th:hover {
+    background-color: black;
+    color: white;
+}
+
+td:hover {
+    background-color: black;
+    color: white;
+}
+
+th {
+
+    border: 1px solid black;
+    text-align: center;
+    height: 30px;
+    font-size: 20px;
+}
+
+.table {
+    width: 820px;
+}
+
+.display {
+    height: 70px;
+    width: 800px;
+    resize: none;
+    outline: none;
+    text-align: right;
+    font-size: 400%;
+    font-weight: bolder;
+    padding: 0px 10px 0px;
+    background: bisque;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    flex-direction: row;
+    height: 600px;
+
+
+}
+
+.calculator {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.buttons {
+    border: black 1px solid;
+    height: 50px;
+    width: 25%;
+    break-inside: avoid;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.buttons:hover {
+    background-color: black;
+    color: white;
+}
